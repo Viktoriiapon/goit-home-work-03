@@ -1,0 +1,225 @@
+            /**========HEADER=========*/   
+.logo{
+    color:#4d5ae5;
+    font-family: Raleway, sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    
+}
+.span-accent{
+    color: #2E2F42;
+ 
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.header-item a{
+color: #2E2F42;
+font-weight: 500;
+line-height: 1.5;
+letter-spacing: 0.02em;
+}
+
+.header-item a:hover, 
+.header-item a:focus{
+    color: #404bbf 
+}
+.address{
+    font-style: normal;
+
+}
+
+.address-item a{
+    color: #434455;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    }
+
+    .address-item a:hover,
+    .address-item a:focus{
+
+    color: #404BBF;
+}
+
+    /**==============================*/
+
+   body{
+        font-family: Roboto, sans-serif;
+        font-size: 16px;
+        color: #434455;  
+        background-color: #FFFFFF;
+   }
+ .hero{background-color: #2E2F42;
+    }
+
+    /**=============HERO=================*/
+
+
+   .hero-title{
+color: #FFFFFF;
+text-align: center;
+font-size: 56px;
+font-weight: 700;
+line-height: 1.07;
+letter-spacing: 0.02em;
+   }
+   .hero-btn{
+    font-family: Roboto, sans-serif;
+background-color: #4D5AE5;
+color: #FFFFFF;
+font-size: 16px;
+font-weight: 500;
+line-height: 1.5;
+letter-spacing: 0.04em;
+cursor: pointer;
+   }
+
+   .hero-btn:hover, 
+    .hero-btn:focus{
+
+        background-color: #404BBF;
+
+       }
+   /**=====================================*/
+
+   /**=============STUDIES=================*/
+
+   
+
+   
+   .studies {
+}
+.stadies-title {
+    
+}
+.studies-list {
+}
+.studies-item {
+}
+.studies-subtitle {
+    color: #2E2F42;
+font-size: 20px;
+font-weight: 500;
+line-height: 1.2;
+letter-spacing: 0.02em;
+}
+.studies-text {
+    color: #434455;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+}
+
+/**=======================================*/
+
+
+/**===============TEAM===================*/
+
+   
+
+.team {
+    background-color: #F4F4FD;
+}
+.team-title{
+    color: #2e2f42;
+background-color:#FFFFFF;
+font-size: 36px;
+font-weight: 700;
+line-height: 1.11;
+letter-spacing: 0.02em;
+text-align: center;
+text-transform: capitalize;
+}
+.team-list {
+    
+    color: #2e2f42;
+}
+.team-item {
+    background-color: #FFFFFF;
+}
+.team-img {
+}
+.team-subtitle {
+font-size: 20px;
+font-weight: 500;
+line-height: 1.2;
+letter-spacing: 0.02em;
+}
+.team-text{
+color: #434455;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+}
+
+/**=======================================*/
+
+/**=============PORTFOLIO=================*/
+
+.portfolio {
+}
+.portfolio-title {
+    color: #2e2f42;
+text-align: center;
+font-size: 36px;
+font-weight: 700;
+line-height: 1.11;
+letter-spacing: 0.02em;
+text-transform: capitalize;
+}
+.portfolio-list {
+}
+.portfolio-iten {
+}
+.portfolio-img {
+}
+.portfolio-subtitle {
+    color: #2e2f42;
+font-size: 20px;
+font-weight: 500;
+line-height: 1.2;
+letter-spacing: 0.02em;
+}
+.portfolio-text {
+    color: #434455;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+/**=======================================*/
+
+/**==============FOOTER==================*/
+
+.footer {
+    color: #4d5ae5;
+    background-color:#2E2F42;
+}
+.footer-logo {
+color: #4d5ae5;
+font-family: Raleway, sans-serif;
+font-size: 18px;
+font-weight: 700;
+line-height: 1.17;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+
+}
+.span-footer-logo{
+color:#F4F4FD;
+
+}
+
+.footer-text {
+color:#F4F4FD;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+}
