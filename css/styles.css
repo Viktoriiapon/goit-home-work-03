@@ -30,6 +30,8 @@ img{
 }  
 .header-navigation{
     display: flex;
+    align-items: center;
+    padding: 24px 0; 
 }
 .header .container{
     
@@ -168,7 +170,7 @@ background-color: #404BBF;
 }
 
 .stadies-title {
-    margin-bottom: 8px;
+    
     
 }
 .studies-list {
@@ -177,7 +179,7 @@ background-color: #404BBF;
     gap: 24px;
     width: calc(100% - 24 * 3) / 4;
 }
-.studies-list:first-child{
+.studies-item-one{
     calc(100% - 72px) / 4;
 }
 
@@ -189,6 +191,7 @@ font-size: 20px;
 font-weight: 500;
 line-height: 1.2;
 letter-spacing: 0.02em;
+margin-bottom: 8px;
 }
 .studies-text {
     color: #434455;
@@ -228,7 +231,7 @@ margin-bottom: 72px;
     margin: 0 auto;
    
 }
-.team-list:first-child{
+.team-item-one{
     width: calc(100% - 72px) / 4;
     border-radius: 0px 0px 4px 4px; 
 
@@ -296,7 +299,7 @@ margin-bottom: 72px;
       
    
 }
-.portfolio-item:first-child {
+.portfolio-item-one {
     width: calc(100% - 24 * 2) / 3;
 
 }
@@ -324,9 +327,7 @@ margin-bottom: 8px;
     border-bottom: 1px solid var(--CORNFLOWER, #E7E9FC);
     border-right: 1px solid var(--CORNFLOWER, #E7E9FC);
     background: var(--WHITE, #FFF);
-padding-bottom: 32px;
-padding-top: 32px;
-padding-left: 16px;
+padding: 32px 16px;
 }
 /**=======================================*/
 
@@ -335,8 +336,7 @@ padding-left: 16px;
 .footer {
     color: #4d5ae5;
     background-color:#2E2F42;
-    padding-top: 102px;
-    padding-bottom: 100px;
+   padding: 100px 0;
 }
 .footer-logo {
     display: block;
@@ -348,6 +348,7 @@ line-height: 1.17;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 margin-bottom: 18px;
+display: inline-block;
 
 }
 .span-footer-logo{
