@@ -20,10 +20,11 @@ img{
 
 
 /**========HEADER=========*/ 
-.header .page{
+.header{
   padding-top: 26px; 
   padding-bottom: 26px; 
   border-bottom: 1px solid #e7e9fc;
+  background-color: #ffffff;
     
 }  
 .header-navigation{
@@ -66,14 +67,12 @@ a{
     margin-right: 332px;
     
 }
-.header-item{
-    padding: 24px 0;
-}
 .header-item a{
 color: #2E2F42;
 font-weight: 500;
 line-height: 1.5;
 letter-spacing: 0.02em;
+padding: 24px 0;
 
 }
 
@@ -171,7 +170,7 @@ background-color: #404BBF;
     padding-bottom: 120px; 
 }
 
-.studies-title .visually-hidden {
+.visually-hidden {
     position: absolute;
  white-space: nowrap;
     width: 1px;
@@ -184,12 +183,13 @@ background-color: #404BBF;
     margin: -1px;
 }
 .studies-list {
-    padding-left: 156px;
     display: flex;
+    /*padding-left: 156px;
+    padding-right: 156px;*/
     gap: 24px;
 }
-.studies-item{
-    width: calc(100% - 72px) / 4;
+.studies-item {
+    width: calc((100% - 72px) / 4);
 }
 .studies-subtitle {
     color: #2E2F42;
