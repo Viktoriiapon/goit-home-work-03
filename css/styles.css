@@ -20,7 +20,7 @@ img{
 
 
 /**========HEADER=========*/ 
-.header{
+.header .page{
   padding-top: 26px; 
   padding-bottom: 26px; 
   border-bottom: 1px solid #e7e9fc;
@@ -168,7 +168,7 @@ background-color: #404BBF;
     padding-bottom: 120px; 
 }
 
-.stadies-title .visualy-hidden {
+.studies-title .visually-hidden {
     position: absolute;
  white-space: nowrap;
     width: 1px;
