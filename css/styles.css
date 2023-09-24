@@ -13,31 +13,34 @@ img{
     width: 1158px;
     padding-right: 15px;
     padding-left: 15px;
-    margin: auto;
+    margin: 0 auto;
 }
-
+*, *::before,
+   *::after{
+    box-sizing: border-box;
+   }
 
 
 
 /**========HEADER=========*/ 
 .header{
-  padding-top: 26px; 
-  padding-bottom: 26px; 
+    display: flex;
   border-bottom: 1px solid #e7e9fc;
   background-color: #ffffff;
-    
+ align-items: center; 
 }  
+.header .container{
+    display: flex;
+    justify-content: space-between;
+}
 .header-navigation{
     display: flex;
     align-items: center;
-    padding: 24px 0; 
-}
-.header .container{
-    
-    display: flex;
 
-} 
+}
+
 .logo{
+    display: inline-block;
     color:#4d5ae5;
     font-family: Raleway, sans-serif;
     font-size: 18px;
@@ -45,36 +48,37 @@ img{
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    padding: 26px 0; 
     margin-right: 76px;
-  
-    
 }
 .span-accent{
     color: #2E2F42;
-    
- 
 }
 ul{
-    list-style: none;
-        
+    list-style: none;      
 }
 a{
     text-decoration: none;
 }
 .header-menu{
     display: flex;
-    gap: 40px;
-    margin-right: 332px;
-    
+    gap: 40px;  
+    margin: 0;
 }
 .header-item a{
+    display: inline-block;
 color: #2E2F42;
 font-weight: 500;
 line-height: 1.5;
 letter-spacing: 0.02em;
 padding: 24px 0;
-
 }
+/*.header-item{
+    padding: 24px 0;
+}
+/*.header-link{
+    display: inline-block;
+}*/
 
 .header-item a:hover, 
 .header-item a:focus{
@@ -82,30 +86,24 @@ padding: 24px 0;
 }
 .address{
     font-style: normal;
-    
-
 }
 .address-menu{
     display: flex;
     gap: 40px;
-    
-   
+    margin: 0; 
 }
-
 .address-item a{
+    display: inline-block;
+    gap: 40px;
     color: #434455;
     font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    margin-left: auto;
     padding: 24px 0;
-
-    }
-
+}
     .address-item a:hover,
     .address-item a:focus{
-
-    color: #404BBF;
+   color: #404BBF;
 }
 
     /**==============================*/
@@ -126,7 +124,6 @@ padding: 24px 0;
 
    .hero-title{
 color: #FFFFFF;
-width: 496px;
 margin: 0 auto;
 text-align: center;
 font-size: 56px;
@@ -184,8 +181,7 @@ background-color: #404BBF;
 }
 .studies-list {
     display: flex;
-    /*padding-left: 156px;
-    padding-right: 156px;*/
+   margin: 0;
     gap: 24px;
 }
 .studies-item {
@@ -226,7 +222,6 @@ line-height: 1.11;
 letter-spacing: 0.02em;
 text-align: center;
 text-transform: capitalize;
-padding-top: 120px;
 margin-bottom: 72px;
 
 }
